@@ -1,0 +1,58 @@
+/* Start Global Rules */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button,
+a {
+  cursor: pointer;
+}
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+/* End Global Rules */
+/* Start Container */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  @media only screen and (max-width: 767px) {
+    width: 100%;
+  }
+  @media only screen and (min-width: 768px) {
+    width: 750px;
+  }
+  @media only screen and (min-width: 992px) {
+    width: 970px;
+  }
+  @media only screen and (min-width: 1200px) {
+    width: 1170px;
+  }
+}
+/* End Container */
